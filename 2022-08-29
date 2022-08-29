@@ -1,0 +1,41 @@
+
+VSCODE에서는 !치고 tab누르면 DOCTYPE자동 완성 가능(안될시 HTML : 5를 치면 자동완성 가능)
+
+div는 division의 약자 구역을 나눔
+p태그는 paragraph의 약자 문단을 생성
+
+h1태그는 제목이라고 생각하면됨(페이지 마다 h1을 넣어주는게 좋음 그래야 구글 검색엔진들이 제목을 로드함)
+
+span은 특정 글자 꾸밀때 사용
+
+a태그는 하이퍼링크
+
+
+margin은 시계방향으로 입력값 만큼 상하좌우 여백을 만든다.
+padding은 설정된 대상의 안쪽으로 여백을 만든다.
+
+
+CSS------------------------------
+메인HTML페이지의 헤드에 <style>을 선언하면 CSS기능을 사용가능
+ex)<style>
+        .mytitle {
+            color:  red;
+
+
+        }
+    </style>
+
+
+
+----전체에 폰트를 먹이고 싶다면 
+*{
+	font-family: 'Black Han Sans', sans-serif; //임의의 폰트를 넣음
+}
+
+라고 입력하면 전역에 걸쳐 폰트가 적용됨
+
+이미지에 어두운 효과 추가하기
+linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url();
+
+
+
