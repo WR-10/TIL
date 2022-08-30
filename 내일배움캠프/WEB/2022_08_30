@@ -1,0 +1,28 @@
+2022_08_30(화)
+
+-----------CSS-----------
+ display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+모바일 처리
+ max-width: 1200px;
+            width: 95%;
+대상의 최대 넓이를 조정해주고, 넓이의 95%까지만 커지게 설정해준다.
+
+
+
+-----------JAVASCRIPT-----------
+JAVA와 JAVASCRIPT는 아무 상관 없음
+
+리스트형은 1,2,3,4와 같이 배열,
+딕셔너리형은 Key : Value값이 저장
+
+.split()을 사용하면 입력값을 기준으로 리스트형으로 쪼개짐
+
+함수는 정해진 것을 실행하는것
+
+반복문은 리스트와 함께 사용되는 것이 많음 
+
+등호 =는 변수에서 사용하기 때문에 ==로 사용해야함
